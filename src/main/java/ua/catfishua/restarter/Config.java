@@ -19,7 +19,7 @@ public class Config {
     public static String getMessage() {
         final StringBuilder help = new StringBuilder();
         for (final String s : config().getStringList("restart-message")) {
-            help.append(String.valueOf(color(s)) + "\n");
+            help.append(String.valueOf(color(s)) + "");
         }
         return help.toString();
     }

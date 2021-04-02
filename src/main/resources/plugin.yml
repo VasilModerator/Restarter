@@ -3,9 +3,9 @@ version: ${project.version}
 main: ua.catfishua.restarter.Main
 api-version: 1.14
 prefix: Restarter
-authors: [ catfishua, Butukay ]
+authors: [ catfishua, Butukay, DeelTer ]
 description: plugin for restart you'r server
-website: https://vk.com/catfishua https://vk.com/butukay
+website: https://vk.com/catfishua https://vk.com/butukay https://vk.com/deelter
 commands:
   autorestart:
     aliases: ["reset", "restart", "autorestart"]
